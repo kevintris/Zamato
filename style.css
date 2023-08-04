@@ -1,0 +1,28 @@
+body{
+	background-color: yellow;
+	padding:200px;
+}
+
+.parent {
+	background-color: red;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	gap:5px;
+	flex-wrap: wrap;
+	flex-direction: column;        /* align indivitual items in column */
+	justify-content: center;    /* align all items in center */
+	
+}
+
+.child1 {
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+}
+
+.child2 {
+	background-color: green;
+	width: 200px;
+	height: 250px;
+}
